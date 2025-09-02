@@ -20,7 +20,6 @@ public class Exercise8 {
             System.out.println("File created successfully: " + filename);
         } catch (IOException e) {
             System.out.println("An error occurred while writing the file.");
-            e.printStackTrace();
         }
 
     }
